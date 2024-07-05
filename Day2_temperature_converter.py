@@ -45,7 +45,7 @@ def main():
             try:
                 fahren = float(fahren_input)
                 temp = Temperature(fahren=fahren)
-                print(temp.fahren_to_celsius())
+                print(f"{temp.fahren_to_celsius()}Fahren")
             except ValueError:
                 print("Give a valid number for Fahrenheit")
 
