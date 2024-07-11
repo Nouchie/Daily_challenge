@@ -15,5 +15,3 @@ def sort_items(L: list):
     l.sort()
     return l
 
-def main():
-    
